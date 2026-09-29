@@ -25,7 +25,7 @@ The relative asset URLs work for both a user site and a project subdirectory. Of
 
 The Paper button links directly to https://arxiv.org/pdf/2609.33616. The BibTeX citation uses an `@article` entry with `journal = {arXiv preprint arXiv:2609.33616}`.
 
-The Code button links to https://github.com/yangcaoai/SpatialSpeak-VLM and displays “Coming soon” while the research code is awaiting release. Set `codeComingSoon` to `false` and remove the static HTML badge when the research code is released.
+The Code button links to https://github.com/yangcaoai/SpatialSpeak-VLM without a release-status badge. The `codeComingSoon` option controls whether a status badge is shown.
 
 The project-page URL recorded in the current Overleaf abstract is https://yangcaoai.github.io/SpatialSpeak/. It is configured as the canonical URL; deployment is still pending. The website abstract retains the matching scientific text without repeating a link to itself.
 
@@ -36,7 +36,7 @@ window.SITE_CONFIG = {
   paperUrl: 'https://arxiv.org/pdf/2609.33616',
   arxivUrl: 'https://arxiv.org/abs/2609.33616',
   codeUrl: 'https://github.com/yangcaoai/SpatialSpeak-VLM',
-  codeComingSoon: true,
+  codeComingSoon: false,
   projectUrl: 'https://yangcaoai.github.io/SpatialSpeak/',
 };
 ```

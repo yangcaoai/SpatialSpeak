@@ -38,3 +38,5 @@ figure figcaption .figure-actions{display:inline-flex;align-items:center;gap:14p
 
 /* A concise takeaway above the paper teaser. */
 #overview-title{max-width:940px;margin-inline:auto;font-size:clamp(18px,2vw,22px);font-weight:500;letter-spacing:0;line-height:1.5;color:#747680}
+
+.authors a:hover,.authors a:focus-visible{color:var(--green);text-decoration:underline;text-underline-offset:3px}
