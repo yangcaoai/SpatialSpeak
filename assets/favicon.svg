@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="SpatialSpeak S">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9181da"/>
+      <stop offset="0.5" stop-color="#6b59bc"/>
+      <stop offset="1" stop-color="#50408f"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0.4" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ece6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#tile)"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="15.25" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"/>
+  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">
+    <text x="33" y="55" fill="#3f3177" fill-opacity="0.35">S</text>
+    <text x="32" y="53" fill="#b5a6e4">S</text>
+    <text x="31.5" y="52" fill="#d2c7f3">S</text>
+    <text x="31" y="51" fill="url(#face)">S</text>
+  </g>
+</svg>
